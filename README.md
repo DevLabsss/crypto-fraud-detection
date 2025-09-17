@@ -6,12 +6,6 @@ Kelompok 1 — Universitas Pamulang
 
 ---
 
-## 📌 Deskripsi Proyek
-Proyek ini bertujuan untuk **mendeteksi transaksi kripto yang bersifat fraud (penipuan)** dengan menggunakan algoritma **Naive Bayes** sebagai baseline model.  
-Dataset yang digunakan bersifat synthetic dengan ±5.000 baris transaksi.
-
----
-
 ## 👥 Anggota Kelompok
 
 - Achmad Syahril Fauzi (231011450396)
