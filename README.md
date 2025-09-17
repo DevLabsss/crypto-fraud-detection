@@ -4,6 +4,13 @@ Kelompok 1 — Universitas Pamulang
 📚 **Mata Kuliah:** Data Mining  
 👨‍🏫 **Dosen:** Tri Prasetyo
 
+<<<<<<< HEAD
+=======
+## 📌 Judul
+
+**Prediksi Transaksi Fraud pada Cryptocurrency Menggunakan Algoritma Naive Bayes**
+
+>>>>>>> d8dbfea (Update README)
 ---
 
 ## 👥 Anggota Kelompok
@@ -12,8 +19,11 @@ Kelompok 1 — Universitas Pamulang
 - Abdul Fakhry (231011450644)
 - Ahmad Imam (231011450458)
 
+<<<<<<< HEAD
 Universitas Pamulang — Mata Kuliah **Data Mining**
 
+=======
+>>>>>>> d8dbfea (Update README)
 ---
 
 ## 🎯 Tujuan
@@ -84,8 +94,13 @@ Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 ### 1) Clone Repository
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/DevLabsss/crypto-fraud-detection.git
 cd crypto-fraud-detection
+=======
+git clone https://github.com/DevLabsss/Data-Mining-Fraud-Detection.git
+cd Data-Mining-Fraud-Detection
+>>>>>>> d8dbfea (Update README)
 ```
 
 > Tidak punya Git? Klik **Code → Download ZIP**, ekstrak, lalu `cd` ke foldernya.
