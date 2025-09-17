@@ -4,9 +4,11 @@ Kelompok 1 — Universitas Pamulang
 📚 **Mata Kuliah:** Data Mining  
 👨‍🏫 **Dosen:** Tri Prasetyo
 
-## 📌 Judul
+---
 
-**Prediksi Transaksi Fraud pada Cryptocurrency Menggunakan Algoritma Naive Bayes**
+## 📌 Deskripsi Proyek
+Proyek ini bertujuan untuk **mendeteksi transaksi kripto yang bersifat fraud (penipuan)** dengan menggunakan algoritma **Naive Bayes** sebagai baseline model.  
+Dataset yang digunakan bersifat synthetic dengan ±5.000 baris transaksi.
 
 ---
 
@@ -15,6 +17,8 @@ Kelompok 1 — Universitas Pamulang
 - Achmad Syahril Fauzi (231011450396)
 - Abdul Fakhry (231011450644)
 - Ahmad Imam (231011450458)
+
+Universitas Pamulang — Mata Kuliah **Data Mining**
 
 ---
 
