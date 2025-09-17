@@ -28,6 +28,7 @@ Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 
 ## 📁 Struktur Repo
 
+```text
 .
 ├─ Fraud_Detection_Flow_Presentation_clean.ipynb
 ├─ fraud_detection_baseline.py
@@ -38,7 +39,7 @@ Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 │  ├─ confusion_matrix.png
 │  └─ roc_curve.png
 └─ README.md
-
+```
 
 ---
 
