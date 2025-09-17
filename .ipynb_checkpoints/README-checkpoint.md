@@ -1,4 +1,4 @@
-# 🛡️ Cryptocurrency Fraud Detection
+# 🛡️ Data Mining — Cryptocurrency Fraud Detection
 
 Kelompok 1 — Universitas Pamulang  
 📚 **Mata Kuliah:** Data Mining  
@@ -16,7 +16,28 @@ Kelompok 1 — Universitas Pamulang
 - Abdul Fakhry (231011450644)
 - Ahmad Imam (231011450458)
 
-Universitas Pamulang — Mata Kuliah **Data Mining**
+---
+
+## 🎯 Tujuan
+
+- Membuat sistem sederhana untuk klasifikasi **normal/fraud**.
+- Menyusun **baseline model** (Naive Bayes) sebelum mencoba model lain.
+- Menunjukkan bagaimana **machine learning** membantu **keamanan transaksi digital**.
+
+---
+
+## 📊 Deskripsi Singkat
+
+Proyek ini mendeteksi **transaksi fraud pada cryptocurrency** menggunakan **Gaussian Naive Bayes** untuk klasifikasi biner.  
+Dataset yang digunakan adalah **synthetic dataset** (~**5.000 baris**) dengan fitur utama:
+
+- `amount`
+- `transaction_freq_24h`
+- `account_age_days`
+- `is_weekend`  
+  **Label target:** `is_fraud` (0 = Normal, 1 = Fraud).
+
+> **Catatan:** Synthetic dibuat sendiri demi privasi; bukan data real transaksi.
 
 ---
 
@@ -39,15 +60,15 @@ Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 
 ```text
 .
-├── Fraud_Detection_Flow_Presentation_clean.ipynb   # Notebook untuk demo/presentasi
-├── fraud_detection_baseline.py                     # Script utama: generate data → train Naive Bayes → evaluasi
-├── requirements.txt                                # Daftar dependensi (pinned)
-├── data/
-│   └── transactions.csv                            # Synthetic dataset (~5k baris)
-├── outputs_basic/
-│   ├── confusion_matrix.png                        # Confusion Matrix (test set)
-│   └── roc_curve.png                               # ROC Curve (test set)
-└── README.md                                       # Dokumentasi proyek
+├─ Fraud_Detection_Flow_Presentation_clean.ipynb   # Notebook untuk demo/presentasi
+├─ fraud_detection_baseline.py                     # Script: generate data → train NB → evaluasi
+├─ requirements.txt                                # Dependensi
+├─ data/
+│  └─ transactions.csv                             # Synthetic dataset (~5k baris)
+├─ outputs_basic/
+│  ├─ confusion_matrix.png                         # Confusion Matrix (test set)
+│  └─ roc_curve.png                                # ROC Curve (test set)
+└─ README.md                                       # Dokumentasi proyek
 ```
 
 ---
@@ -87,10 +108,12 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 3) Install Dependencies
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
 
 ### 4) Jalankan (pilih salah satu)
 
@@ -110,8 +133,12 @@ python fraud_detection_baseline.py
 #### B. Jalankan **Notebook (.ipynb)**
 
 ```bash
-jupyter notebook Fraud_Detection_Flow_Presentation_clean.ipynb
+python -m pip install jupyterlab ipykernel
+python -m ipykernel install --user --name fraud-nb --display-name "Python (fraud-nb)"
+jupyter lab
 ```
+
+Buka `Fraud_Detection_Flow_Presentation_clean.ipynb` → pilih kernel **Python (fraud-nb)** → **Run All Cells**.
 
 ---
 
