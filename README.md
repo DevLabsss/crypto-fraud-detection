@@ -86,8 +86,8 @@ Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 ### 1) Clone Repository
 
 ```bash
-git clone https://github.com/DevLabsss/Data-Mining-Fraud-Detection.git
-cd Data-Mining-Fraud-Detection
+git clone https://github.com/DevLabsss/crypto-fraud-detection.git
+cd crypto-fraud-detection
 ```
 
 > Tidak punya Git? Klik **Code → Download ZIP**, ekstrak, lalu `cd` ke foldernya.
