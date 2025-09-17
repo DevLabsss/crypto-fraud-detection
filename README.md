@@ -1,4 +1,4 @@
-# 🛡️ Data Mining Project — Cryptocurrency Fraud Detection (Naive Bayes)
+# 🛡️ Data Mining — Cryptocurrency Fraud Detection (Naive Bayes)
 
 Kelompok 1 — Universitas Pamulang  
 📚 Mata Kuliah: Data Mining  
@@ -24,6 +24,24 @@ Kelompok 1 — Universitas Pamulang
 - Menyediakan **baseline model** (Naive Bayes) sebelum mencoba model lain.
 - Menunjukkan bagaimana **machine learning** membantu **keamanan transaksi digital**.
 
+---
+
+## 📊 Deskripsi
+
+Proyek ini bertujuan untuk **mendeteksi transaksi fraud pada cryptocurrency** menggunakan algoritma **Naive Bayes** sebagai model klasifikasi biner.
+
+Dataset yang digunakan adalah **synthetic dataset** dengan lebih dari **2000 transaksi**, berisi fitur utama:
+
+- `amount`
+- `transaction_freq_24h`
+- `account_age_days`
+- `is_weekend`
+
+Label target: `is_fraud` (0 = Normal, 1 = Fraud).
+
+---
+
+
 ## 🗂️ Dataset
 
 - **Jenis:** _Synthetic dataset_ (dibuat sendiri demi privasi; bukan data real).
@@ -43,15 +61,15 @@ Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 
 ```text
 .
-├─ Fraud_Detection_Flow_Presentation_clean.ipynb
-├─ fraud_detection_baseline.py
-├─ requirements.txt
+├─ Fraud_Detection_Flow_Presentation_clean.ipynb    # Script utama (generate data, train NB, evaluasi)
+├─ fraud_detection_baseline.py                      # Notebook untuk demo/presentasi
+├─ requirements.txt                                 # Dependencies minimal
 ├─ data/
-│  └─ transactions.csv
-├─ outputs_basic/
-│  ├─ confusion_matrix.png
-│  └─ roc_curve.png
-└─ README.md
+│  └─ transactions.csv                              # Synthetic dataset (~5k baris)
+├─ outputs_basic/                                   # Hasil eksekusi
+│  ├─ confusion_matrix.png                          # Confusion Matrix (test set)
+│  └─ roc_curve.png                                 # ROC Curve (test set)
+└─ README.md                                        # Dokumentasi proyek
 ```
 
 ---
