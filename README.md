@@ -29,23 +29,19 @@ Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 ## 📁 Struktur Repo
 
 .
-├─ Fraud_Detection_Flow_Presentation_clean.ipynb # notebook untuk demo/presentasi
-├─ fraud_detection_baseline.py # script .py (jalan via terminal)
-├─ requirements.txt # dependensi
+├─ Fraud_Detection_Flow_Presentation_clean.ipynb
+├─ fraud_detection_baseline.py
+├─ requirements.txt
 ├─ data/
-│ └─ transactions.csv # opsional; auto-dibuat kalau kosong
+│  └─ transactions.csv
 ├─ outputs_basic/
-│ ├─ confusion_matrix.png
-│ ├─ roc_curve.png
-│ └─ metrics.json # opsional; dibuat dari notebook
+│  ├─ confusion_matrix.png
+│  └─ roc_curve.png
 └─ README.md
 
-```
 
 ---
 
-## 🔧 Setup (macOS/Linux/Windows PowerShell)
-```bash
 python -m venv .venv
 # macOS/Linux
 source .venv/bin/activate
@@ -55,7 +51,7 @@ source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 python -m ipykernel install --user --name fraud-nb --display-name "Python (fraud-nb)"
-````
+
 
 ## ▶️ Menjalankan
 
