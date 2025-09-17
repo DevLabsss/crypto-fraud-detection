@@ -1,7 +1,20 @@
-# 🛡️ Cryptocurrency Fraud Detection — Naive Bayes (Baseline)
+# 🛡️ Data Mining Project — Cryptocurrency Fraud Detection (Naive Bayes)
 
 Kelompok 1 — Universitas Pamulang  
-Project untuk mendeteksi transaksi kripto **normal (0)** vs **fraud (1)** menggunakan **Gaussian Naive Bayes** sebagai **baseline**.
+📚 Mata Kuliah: Data Mining  
+👨‍🏫 Dosen: Tri Prasetyo
+
+## 📌 Judul
+
+**Prediksi Transaksi Fraud pada Cryptocurrency Menggunakan Algoritma Naive Bayes**
+
+---
+
+## 👥 Anggota Kelompok
+
+- Achmad Syahril Fauzi (231011450396)
+- Abdul Fakhry (231011450644)
+- Ahmad Imam (231011450458)
 
 ---
 
