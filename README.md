@@ -1,4 +1,3 @@
-```markdown
 # 🛡️ Cryptocurrency Fraud Detection — Naive Bayes (Baseline)
 
 Kelompok 1 — Universitas Pamulang  
@@ -28,7 +27,6 @@ Project untuk mendeteksi transaksi kripto **normal (0)** vs **fraud (1)** menggu
 Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 
 ## 📁 Struktur Repo
-```
 
 .
 ├─ Fraud_Detection_Flow_Presentation_clean.ipynb # notebook untuk demo/presentasi
@@ -42,7 +40,7 @@ Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 │ └─ metrics.json # opsional; dibuat dari notebook
 └─ README.md
 
-````
+```
 
 ---
 
