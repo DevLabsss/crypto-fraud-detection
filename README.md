@@ -71,8 +71,39 @@ Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 │  └─ roc_curve.png                                 # ROC Curve (test set)
 └─ README.md                                        # Dokumentasi proyek
 ```
-
 ---
+## 💻 Prasyarat
+
+- Python 3.9+ (disarankan 3.10/3.11)
+- OS: macOS / Linux / Windows
+---
+## ⚙️ Cara Menjalankan (Repro dari Nol)
+
+### 1) Clone Repository
+
+```bash
+git clone https://github.com/DevLabsss/Data-Mining-Fraud-Detection.git
+cd Data-Mining-Fraud-Detection
+```
+
+### 2) (Opsional) Buat Virtual Environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+```
+
+### 3) Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4) Jalankan Script
+
+```bash
+python3 crypto_fraud_basic.py
+```
 
 python -m venv .venv
 # macOS/Linux
